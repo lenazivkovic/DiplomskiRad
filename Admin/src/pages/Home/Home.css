@@ -1,0 +1,28 @@
+.sidebar, .navbar{
+    background-color:#f5ebe0;
+}
+
+.sidebar{
+  width:200px;
+}
+
+#nav-default-link1,
+#nav-default-link2,
+#nav-default-link3,
+#nav-default-link4,
+#nav-default-link5,
+#nav-default-link6 {
+  background-color: #f5ebe0;
+  color: black;
+  font-size:16px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap:7px;  
+}
+
+.active {
+  /* background-color: #f5ebe0;
+  color: black; */
+  font-weight: 800;
+}
